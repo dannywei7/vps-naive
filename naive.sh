@@ -147,17 +147,16 @@ yellow "请输入pass"
 green "======================="
 read your_pass
 
-
 curl https://getcaddy.com | bash -s personal hook.service,http.forwardproxy
 
 
 
 cat >  /usr/local/bin/Caddyfile <<-EOF
-usv0.danny1.nl
+$your_domain
 root /var/www/html
 tls myemail@gmail.com
 forwardproxy {
-  basicauth usv0 5b73add1
+  basicauth $your_userid $your_pass
   hide_ip
   hide_via
   probe_resistance secret.localhost
