@@ -220,7 +220,7 @@ mkdir /var/www/html/client
 mv /usr/local/bin/naiveClient/naive-cli.zip /var/www/html/client/
 
 
-
+fi
 
 }
 
