@@ -198,7 +198,7 @@ After=network.target
 Type=simple  
 ExecStart=/usr/local/bin/naiveproxy/naive "/usr/local/bin/naiveproxy/config.json"
 ExecReload=  
-ExecStop=/usr/local/bin/naiveproxy/naive 
+ExecStop=
 PrivateTmp=true  
    
 [Install]  
