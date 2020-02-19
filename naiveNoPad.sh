@@ -231,7 +231,7 @@ mv -f /usr/local/bin/naiveClient/naive-cli.zip /var/www/html/client/
 	green "1、复制下面的链接，在浏览器打开，下载客户端"
 	yellow "http://${your_domain}/client/naive-cli.zip"	
 	green "2、将下载的压缩包解压，打开文件夹，打开start.bat即打开并运行Naive客户端"
-	green "3、打开stop.bat即关闭Trojan客户端"
+	green "3、打开stop.bat即关闭Naive客户端"
 	green "======================================================================"
 
 
