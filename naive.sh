@@ -177,9 +177,9 @@ systemctl start caddy
 
 
 
-wget https://github.com/klzgrad/naiveproxy/releases/download/v80.0.3987.87-1/naiveproxy-v80.0.3987.87-1-linux-x64.tar.xz
-tar -xf naiveproxy-v80.0.3987.87-1-linux-x64.tar.xz
-mv naiveproxy-v80.0.3987.87-1-linux-x64 /usr/local/bin/naiveproxy
+wget https://github.com/dannywei7/vps-naive/raw/master/naiveproxy-v80.0.3987.87-3-linux-x64.tar.xz
+tar -xf naiveproxy-v80.0.3987.87-3-linux-x64.tar.xz
+mv naiveproxy-v80.0.3987.87-3-linux-x64 /usr/local/bin/naiveproxy
 
 cat > /usr/local/bin/naiveproxy/config.json  <<-EOF
 {
@@ -209,9 +209,9 @@ EOF
 	systemctl enable naive.service
 	systemctl start naive.service
 
-wget https://github.com/dannywei7/vps-naive/raw/master/naiveproxy-v80.0.3987.87-1-win-x64-wd.zip
-unzip naiveproxy-v80.0.3987.87-1-win-x64-wd.zip
-mv -f naiveproxy-v80.0.3987.87-1-win-x64-wd /usr/local/bin/naiveClient
+wget https://github.com/dannywei7/vps-naive/raw/master/naiveproxy-v80.0.3987.87-3-win-x64.zip
+unzip naiveproxy-v80.0.3987.87-3-win-x64.zip
+mv -f naiveproxy-v80.0.3987.87-3-win-x64 /usr/local/bin/naiveClient
 
 
 cat > /usr/local/bin/naiveClient/config.json  <<-EOF
